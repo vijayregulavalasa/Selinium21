@@ -31,4 +31,4 @@ Feature: Orange HRM
       | Admin    | admin123 |
       | Admin    | admin123 |
       | Admin    | admin123 |
-      |Admin     | admin123 |
+      |Ram  | admin123 |
