@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Learning]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="BrowserSelection(failed)">
+    <classes>
+      <class name="com.automation.BrowserSelection">
+        <methods>
+          <include name="addCart" invocation-numbers="1 2"/>
+          <include name="browserSelection"/>
+        </methods>
+      </class> <!-- com.automation.BrowserSelection -->
+    </classes>
+  </test> <!-- BrowserSelection(failed) -->
+</suite> <!-- Failed suite [Learning] -->

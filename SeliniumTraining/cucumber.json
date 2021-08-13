@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-10T18:15:59.296Z",
+        "line": 3,
+        "name": "Successful Login",
+        "description": "",
+        "id": "orange-hrm;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7078039000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Orange HRM url",
+            "match": {
+              "location": "com.automaton.stepdefinitions.LoginStepdefinition.i_am_in_orange_hrm_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1154272800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I logged in as a user",
+            "match": {
+              "location": "com.automaton.stepdefinitions.LoginStepdefinition.i_logged_in_as_a_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#welcome\"}\n  (Session info: chrome\u003d92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INHYDL4407\u0027, ip: \u0027192.168.1.100\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\VIJAY~1.REG\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 022d7cdc469cfaef8a6ac16475b7b65c\n*** Element info: {Using\u003did, value\u003dwelcome}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.automaton.stepdefinitions.LoginStepdefinition.user_should_be_logged_in_succesfully(LoginStepdefinition.java:38)\r\n\tat ✽.user should be logged in succesfully(file:///D:/Selenium/AutomationWorkspace/SeliniumTraining/Features/HRM.feature:6)\r\n",
+              "duration": 30065427100,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user should be logged in succesfully",
+            "match": {
+              "location": "com.automaton.stepdefinitions.LoginStepdefinition.user_should_be_logged_in_succesfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I logout",
+            "match": {
+              "location": "com.automaton.stepdefinitions.LoginStepdefinition.i_logout()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-10T18:16:37.626Z",
+        "line": 9,
+        "name": "Successful Login",
+        "description": "",
+        "id": "orange-hrm;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5339379300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am in Orange HRM url",
+            "match": {
+              "location": "com.automaton.stepdefinitions.LoginStepdefinition.i_am_in_orange_hrm_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1557600500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I logged in as a \"Admin\" user",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.automaton.stepdefinitions.LoginStepdefinition.i_logged_in_as_a_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#welcome\"}\n  (Session info: chrome\u003d92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INHYDL4407\u0027, ip: \u0027192.168.1.100\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\VIJAY~1.REG\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4749f7f35f15ce06be9db3f675b52830\n*** Element info: {Using\u003did, value\u003dwelcome}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.automaton.stepdefinitions.LoginStepdefinition.user_should_be_logged_in_succesfully(LoginStepdefinition.java:38)\r\n\tat ✽.user should be logged in succesfully(file:///D:/Selenium/AutomationWorkspace/SeliniumTraining/Features/HRM.feature:12)\r\n",
+              "duration": 30045919400,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user should be logged in succesfully",
+            "match": {
+              "location": "com.automaton.stepdefinitions.LoginStepdefinition.user_should_be_logged_in_succesfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I logout",
+            "match": {
+              "location": "com.automaton.stepdefinitions.LoginStepdefinition.i_logout()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM",
+    "description": "",
+    "id": "orange-hrm",
+    "keyword": "Feature",
+    "uri": "file:Features/HRM.feature",
+    "tags": []
+  }
+]
